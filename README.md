@@ -12,7 +12,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone git@github.com:ВАШ_ЛОГИН/cbr-currency-bot.git
+git clone git@github.com:Irtkfn/cbr-currency-bot.git
 cd cbr-currency-bot
 ```
 
