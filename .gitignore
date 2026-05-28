@@ -1,4 +1,41 @@
+# ===== Секреты и переменные окружения =====
 .env
-__pycache__/
-*.pyc
+*.env
+.env.local
+
+# ===== Виртуальное окружение =====
 venv/
+env/
+ENV/
+.venv/
+
+# ===== Python кэш =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Логи =====
+*.log
+logs/
+
+# ===== IDE и редакторы =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Системные файлы =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Тесты и покрытие =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Базы данных (если появятся) =====
+*.sqlite3
+*.db
